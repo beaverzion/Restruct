@@ -1,0 +1,16 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #ClickText{
+    color: blue;
+    }
+    
+    .dark_theme{
+    background-color: black;
+    color: white;
+    }
+    
+    .light_theme{
+    background-color: white;
+    color: black;
+    }

@@ -1,0 +1,110 @@
+
+.dlai{
+    display: flex;
+    justify-content: space-between;
+}
+
+.MenuPosition{
+    display: flex;
+    align-items: center;
+}
+.Menu{
+    position: fixed;
+    font-style:initial;
+    color: rgb(252, 164, 0);
+    background-color: rgba(145, 33, 14, 0.925);
+    padding-top: 10px;
+    height: 350px;
+    width: 1920px
+}
+main{
+    padding-top: 350px;
+}
+A{
+    color: white;
+    text-decoration: none;
+}
+header{
+    font-size: 40px;
+    text-align: center;
+}
+.BigMac{
+    color: rgba(145, 33, 14, 0.925);
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    font-style: italic;
+    background-color: white;
+    padding-top: 20px;
+    height: 400px;
+}
+.Comp{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgba(145, 33, 14, 0.925);
+    padding-top: 80px;
+    height: 400px;
+}
+.Comp li{
+    display: inline-block;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+.CompText{
+    font-size: 20px;
+    padding-top: 60px;
+}
+.Ser{
+    text-align: center;
+    font-style: italic;
+    color: black;
+    background-color: white;
+    padding-top: 20px;
+    height: 400px;
+}
+.SerText{
+    margin-top: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+    display: flex;
+    text-align: left;
+}
+.About{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    background-color: rgba(145, 33, 14, 0.925);
+    padding-top: 20px;
+    height: 400px;
+}
+.AboutText{
+    margin: 80px 250px 100px;
+    text-align: left;
+
+}
+footer {
+    margin-right: 250px;
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+button{
+    height: 200px;
+}
+body{
+    margin: 0px;
+}
+floor{
+    text-align: center;
+    font-style: italic;
+    color: black;
+    background-color: white;
+    padding-top: 20px;
+    height: 400px;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>html - формы</title>
+<script src="script.js"></script>
+<link rel="stylesheet" href="css/style1.css">
+</head>
+<body id="Theme" class="light_theme">
+<header>
+<h1 id="ClickText" onclick="ChangeColor()">Click on me!</h1>
+<script>
+function ChangeColor(){
+document.getElementById("ClickText").style.color = "red";
+}
+</script>
+</header>
+<button id="ChangeThemeButton" onclick="ChangeTheme()">Темная тема</button>
+<script>
+function ChangeTheme(){
+if(document.getElementById("ChangeThemeButton").innerText === "Темная тема"){
+document.getElementById("ChangeThemeButton").innerText = "Светлая тема";
+document.getElementById("Theme").classList.remove("light_theme");
+document.getElementById("Theme").classList.add("dark_theme");
+}
+else{
+document.getElementById("ChangeThemeButton").innerText = "Темная тема";
+document.getElementById("Theme").classList.remove("dark_theme");
+document.getElementById("Theme").classList.add("light_theme");
+}
+}
+</script>
+<button id="ClickButton">Button</button>
+<script>
+ClickButton.onclick = function(){
+document.getElementById("ClickButton").innerText = "Кнопка нажата";
+};
+</script>
+<br>
+<textarea id="ChangeTextArea" cols="30" rows="10"></textarea>
+<script>
+ChangeTextArea.addEventListener("click", () => document.getElementById("ChangeTextArea").rows = "50");
+</script>
+</body>
+</html>
